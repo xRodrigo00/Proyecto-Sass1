@@ -1,0 +1,16 @@
+footer {
+  background: $background_nav;
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    i {
+      color: $nav_color;
+      margin-left: 2rem;
+      &:hover {
+        color: $nav_color-hover;
+      }
+    }
+  }
+}
